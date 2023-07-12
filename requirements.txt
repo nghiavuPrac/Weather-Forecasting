@@ -2,3 +2,5 @@ streamlit==1.0.0
 plotly==5.5.0
 requests==2.25.1
 DateTime==4.3
+altair==4.0
+protobuf==3.20.1
