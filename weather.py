@@ -16,6 +16,8 @@ st.set_page_config(page_title='Vietnamese_Wearher_forecast', page_icon=":rainbow
 
 st.title("WEATHER FORECAST 🌧️🌥️")
 
+st.markdown("[Dataset record from 1st Jan 2009 to Jun 18th 2021 of 40 province or city in Vietnam](https://www.kaggle.com/datasets/vanviethieuanh/vietnam-weather-data?fbclid=IwAR3wCC9HFy09sjtiGcClHPIrnA7MrhJpzSMaQ_-kuC-pFee8JgJindOuT_M)")
+
 province=st.selectbox("SELECT THE VIETNAMESE'S PROVINCE",province_list)
 
 forecast_day=st.selectbox("SELECT THE NUMBER OF DAY FORECAST",[8,7,6,5,4,3,2,1])
